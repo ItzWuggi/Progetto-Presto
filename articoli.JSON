@@ -1,0 +1,103 @@
+[
+    {
+    "id": 1,
+    "nome": "Katana di Hattori Hanzo",
+    "prezzo": 334,
+    "categoria": "Accessori"
+  }, {
+    "id": 2,
+    "nome": "Kimono Giapponese",
+    "prezzo": 8978,
+    "categoria": "Accessori"
+  }, {
+    "id": 3,
+    "nome": "Vaso Ming",
+    "prezzo": 7864,
+    "categoria": "Arredamento"
+  }, {
+    "id": 4,
+    "nome": "Guqin",
+    "prezzo": 6778,
+    "categoria": "Musica"
+  }, {
+    "id": 5,
+    "nome": "Statua di Terracotta",
+    "prezzo": 8241,
+    "categoria": "Arredamento"
+  }, {
+    "id": 6,
+    "nome": "Tappeto Tibetano",
+    "prezzo": 7251,
+    "categoria": "Arredamento"
+  }, {
+    "id": 7,
+    "nome": "Quadro di Buddha",
+    "prezzo": 7061,
+    "categoria": "Arredamento"
+  }, {
+    "id": 8,
+    "nome": "Occhio di Pai Mei",
+    "prezzo": 3328,
+    "categoria": "Reliquia"
+  }, {
+    "id": 9,
+    "nome": "Flauto Btuty",
+    "prezzo": 5908,
+    "categoria": "Musica"
+  }, {
+    "id": 10,
+    "nome": "Lancia Shaolin",
+    "prezzo": 8326,
+    "categoria": "Accessori"
+  }, {
+    "id": 11,
+    "nome": "Scudo Indonesiano",
+    "prezzo": 2834,
+    "categoria": "Accessori"
+  }, {
+    "id": 12,
+    "nome": "Lacrime Shintoiste",
+    "prezzo": 5175,
+    "categoria": "Reliquia"
+  }, {
+    "id": 13,
+    "nome": "Urna Koreana",
+    "prezzo": 9626,
+    "categoria": "Reliquia"
+  }, {
+    "id": 14,
+    "nome": "Gong dell'Himalaya",
+    "prezzo": 3932,
+    "categoria": "Musica"
+  }, {
+    "id": 15,
+    "nome": "Cassettiera di Palissandro",
+    "prezzo": 2449,
+    "categoria": "Arredamento"
+  }, {
+    "id": 16,
+    "nome": "Pugnale sacrificale",
+    "prezzo": 283,
+    "categoria": "Reliquia"
+  }, {
+    "id": 17,
+    "nome": "Collana di perle blu",
+    "prezzo": 4513,
+    "categoria": "Gioielli"
+  }, {
+    "id": 18,
+    "nome": "Bracciale zaffiri di kyoto",
+    "prezzo": 1216,
+    "categoria": "Gioielli"
+  }, {
+    "id": 19,
+    "nome": "Anello dell'isola di Nara",
+    "prezzo": 8115,
+    "categoria": "Gioielli"
+  }, {
+    "id": 20,
+    "nome": "Scaffale dello Shogun",
+    "prezzo": 1966,
+    "categoria": "Arredamento"
+  }
+]

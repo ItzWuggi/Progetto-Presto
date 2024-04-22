@@ -1,0 +1,198 @@
+  :root{
+    --color-P : darkred;
+    --color-S : white;
+    --color-A : rgb(255, 230, 0);
+  }
+  
+  .colorP{
+    color: var(--color-P);
+  }
+  
+  
+  /* NAVBAR */
+  .colorNavbar{
+    background-color: var(--color-P) ;
+    
+  }
+  
+  
+  .navScrolled{
+    backdrop-filter: blur(10px);  
+    background-color:  rgba(139, 0, 0, 0.7);
+  }
+  
+  /* HEADER */
+  .colorHeader{
+    background-color: var(--color-P);
+    height: 85vh;
+  }
+  
+  *{font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .titleFont{font-family: "Ojuju", sans-serif;
+    font-style: normal;
+  }
+  
+  .boxText{
+    height: 25vw;
+    min-height: 400px;
+    
+  }
+
+  .btnCompra{
+    padding: 10 px 50px;
+    border-radius: 20px;
+    background-color: var(--color-A);
+    border: 2px solid var(--color-A);
+    transform: scale(1);
+    transition: 0.5;
+    
+  }
+
+  .btnCompra:hover{
+   transform: scale(1.07);
+border: 2px solid var(--color-A);
+background-color: var(--color-A);
+
+  }
+
+  .btnEsplora{
+    padding: 10 px 50px;
+    border-radius: 20px;
+background-color: transparent;
+border: 2px solid white;
+color: white;
+transform: scale(1);
+    transition: 0.5;
+    
+  }
+
+  .btnEsplora:hover{
+    transform: scale(1.07);
+    border: 2px solid white;
+  }
+
+  /* ULTIMI ANNUNCI */
+  .card:hover > div > .imgCard{
+    transform: scale(1.5);
+  }
+  
+  .imgCard{
+    transition: .7s;
+  }
+
+
+  /* CATEGORIE */
+  .imgCategory{
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid var(--color-P);
+    padding: 5px;
+  }
+  
+  /* SEZIONE NUMERI */
+  .boxNumeri{
+    height: 150px;
+    background-color: var(--color-P);
+    border-radius: 20px;
+    border: 2px solid black;
+    color: var(--color-S);
+  }
+  
+  .transition{
+    transition: 0.7s;
+  }
+
+
+  /* SWIPER */
+  .swiper {
+      width: 280px;
+      height: 320px;
+    }
+
+    .swiper-slide {
+      /* display: flex;
+      align-items: center;
+      justify-content: center; */
+      border-radius: 18px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+      padding: 7px;
+    }
+
+    .swiper-slide:nth-child(1n) {
+      background-color: rgb(0, 140, 255);
+    }
+
+    .swiper-slide:nth-child(2n) {
+      background-color: rgb(206, 17, 17);
+    }
+
+    .swiper-slide:nth-child(3n) {
+      background-color: rgb(10, 184, 111);
+    }
+
+    .swiper-slide:nth-child(4n) {
+      background-color: var(--color-A);
+    }
+
+    .swiper-slide:nth-child(5n) {
+      background-color: rgb(118, 163, 12);
+    }
+
+    .swiper-slide:nth-child(6n) {
+      background-color: rgb(180, 10, 47);
+    }
+
+    .swiper-slide:nth-child(7n) {
+      background-color: rgb(35, 99, 19);
+    }
+
+    .swiper-slide:nth-child(8n) {
+      background-color: rgb(0, 68, 255);
+    }
+
+    .swiper-slide:nth-child(9n) {
+      background-color: rgb(218, 12, 218);
+    }
+
+    .swiper-slide:nth-child(10n) {
+      background-color: rgb(54, 94, 77);
+    }
+
+
+
+    /* FOOTER */
+    .btnFooter{
+      
+      padding: 10 px 50px;
+    border-radius: 20px;
+    background-color: var(--color-P);
+    border: 2px solid var(--color-P);
+    }
+  
+    /* FILTRI */
+.boxFiltri{
+  padding: 35px;
+  background-color: rgba(182, 170, 170, 0.849);
+  border-radius: 20px;
+  position: sticky;
+  top: 80px;
+}
+
+
+
+
+
+  /* MEDIA QUERIES */
+  @media screen and (min-width: 675px){
+    .navScrolled  {
+      margin: 5vh 15vw;
+      border: 1px solid var(--color-A);
+      border-radius: 10px;
+    }
+  }
